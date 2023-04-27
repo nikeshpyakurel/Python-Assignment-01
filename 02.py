@@ -2,7 +2,7 @@
 
 inputList = eval(input("Enter List of Digit:"))
 sum = 0
-if inputList == list:
+if type(inputList) == list:
 
     for i in inputList:
         sum = sum+i
