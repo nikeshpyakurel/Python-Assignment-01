@@ -16,4 +16,3 @@ else:
         else:
             print("Prime")
             break
-        i
