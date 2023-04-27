@@ -1,5 +1,3 @@
-# Python program that accepts a string and calculate the number of digits and letters and space
-
 inputString = input("Enter String:")
 calculateSpace = 0
 calculateDigit = 0

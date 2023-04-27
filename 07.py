@@ -1,4 +1,3 @@
-# reverse a list
 inputList = eval(input("Enter the list:"))
 b = []
 if type(inputList) == list:

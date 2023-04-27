@@ -1,5 +1,3 @@
-# print each character using indexing
-
 inputString = input("Enter the string")
 index = 0
 for i in inputString:

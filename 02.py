@@ -1,5 +1,3 @@
-# Sum of a list
-
 inputList = eval(input("Enter List of Digit:"))
 sum = 0
 if type(inputList) == list:

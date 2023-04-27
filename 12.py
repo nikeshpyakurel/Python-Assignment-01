@@ -1,5 +1,3 @@
-# 12. Python program to check the validity of username and password input by users
-
 for i in range(3):
     userName, password = input("Enter Username:"), input("Enter Password:")
     if userName == 'username' and password == 'password':

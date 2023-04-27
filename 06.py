@@ -1,5 +1,3 @@
-# multiplication table of a given number
-
 inputNumber = int(input("Enter a no:"))
 rangeOfMultiply = int(input("Enter a range"))
 for i in range(1, rangeOfMultiply+1):

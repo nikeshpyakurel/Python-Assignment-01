@@ -1,5 +1,3 @@
-# given number is prime or not
-
 inputNumber = int(input("Enter Prime"))
 prime = False
 if inputNumber == 1:
@@ -9,7 +7,8 @@ elif inputNumber > 1:
         if inputNumber % i == 0:
             prime = True
             break
-if prime:
-    print('not prime')
-else:
-    print('prime')
+
+    if prime:
+        print('not prime')
+    else:
+        print('prime')
