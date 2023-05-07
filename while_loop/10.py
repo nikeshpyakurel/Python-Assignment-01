@@ -1,15 +1,15 @@
-end_range = int(input("Enter the end range: "))
+ranges = int(input("Enter the range: "))
 
 num = 2
-while num <= end_range:
+while num <= ranges:
     if num > 1:
-        is_prime = True
-        divisor = 2
-        while divisor <= int(num ** 0.5):
-            if num % divisor == 0:
-                is_prime = False
+        div = 2
+        prime = True
+        while div <= int(num ** 0.5):
+            if num % div == 0:
+                prime = False
                 break
-            divisor += 1
-        if is_prime:
+            div += 1
+        if prime:
             print(num)
     num += 1
